@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Android_Fragments</string>
+    <string name="fragment_txt">This is my setting fragment layout</string>
 </resources>

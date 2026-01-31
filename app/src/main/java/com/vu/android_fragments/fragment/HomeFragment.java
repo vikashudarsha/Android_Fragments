@@ -11,17 +11,10 @@ import androidx.fragment.app.Fragment;
 
 import com.vu.android_fragments.R;
 
-public class settingFragment extends Fragment {
-
-//    public settingFragment(){
-//        super(R.layout.fragment_setting);
-//
-//    }
-
-
+public class HomeFragment extends Fragment {
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-              return inflater.inflate(R.layout.fragment_setting, container, false);
+        return  inflater.inflate(R.layout.fragment_home, container, false);
     }
 }

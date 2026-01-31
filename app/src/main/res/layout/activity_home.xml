@@ -6,9 +6,33 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".activity.HomeActivity">
+
     <androidx.fragment.app.FragmentContainerView
         android:id="@+id/fragment_container_view"
+        android:name="com.vu.android_fragments.fragment.HomeFragment"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+        android:layout_height="0dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintBottom_toBottomOf="@id/settingBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout="@layout/fragment_home"
+        />
+
+    <Button
+        android:id="@+id/settingBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="80dp"
+        android:text="@string/setting_btn_txt"
+        android:textAlignment="center"
+        app:icon="@drawable/m3_split_button_chevron_avd"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/fragment_container_view" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

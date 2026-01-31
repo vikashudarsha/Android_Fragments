@@ -1,4 +1,6 @@
 <resources>
     <string name="app_name">Android_Fragments</string>
-    <string name="fragment_txt">This is my setting fragment layout</string>
+    <string name="setting_btn_txt">Setting</string>
+    <string name="home_fragment_txt">This is HOME Fragment</string>
+
 </resources>
